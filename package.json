@@ -1,0 +1,25 @@
+{
+  "name": "illumifi-showcase",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Selected client-side security code from Illumifi (illumifi.app)",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@nktkas/hyperliquid": "0.32.2",
+    "@noble/curves": "1.9.1",
+    "@noble/hashes": "2.2.0",
+    "@scure/base": "1.2.6",
+    "@scure/bip32": "1.7.0",
+    "@scure/bip39": "1.6.0",
+    "viem": "2.55.10"
+  },
+  "devDependencies": {
+    "@types/node": "24.13.2",
+    "typescript": "6.0.3",
+    "vitest": "4.1.11"
+  }
+}
